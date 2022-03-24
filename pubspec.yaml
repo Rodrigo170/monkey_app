@@ -63,6 +63,8 @@ flutter:
    - lib/src/img/fondo1.png
    - lib/src/img/fondo2.png
    - lib/src/img/Monkey_face.png
+   - lib/src/img/Shaped_subtraction.png
+   - lib/src/img/ejemplo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
