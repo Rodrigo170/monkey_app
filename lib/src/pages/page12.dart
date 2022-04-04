@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:monkey_app/src/pages/page13.dart';
 
 class Page_12 extends StatefulWidget {
   Page_12({Key? key}) : super(key: key);
@@ -60,7 +61,10 @@ class _Page_12State extends State<Page_12> {
             Image.asset('lib/src/img/Beverages.png'),
 
            GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => Page_13()));
+                },
                 child: Image.asset('lib/src/img/Desserts.png')
             ),
 

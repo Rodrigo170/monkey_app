@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:monkey_app/src/pages/page11.dart';
 import 'package:monkey_app/src/pages/page12.dart';
+import 'package:monkey_app/src/pages/page13.dart';
 
 class Menu extends StatefulWidget {
   Menu({Key? key}) : super(key: key);
@@ -13,7 +14,9 @@ class _MenuState extends State<Menu> {
   int currentTab=0;
   final List<Widget> screens = [
     Page_11(),
-    Page_12()
+    Page_12(),
+    Page_13()
+
   ];
 
   final PageStorageBucket bucket = PageStorageBucket();
